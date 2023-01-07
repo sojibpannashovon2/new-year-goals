@@ -124,3 +124,28 @@ border-radius: 5px;
     background-color: rgb(55, 126, 241);
     color: white;
 }
+/* footer section */
+
+#btn3-info{
+    background-color:white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(243, 109, 7);
+
+}
+#btn3-info:hover{
+    background-color: rgb(55, 126, 241);
+    color: white;
+}
+.footer-info{
+    background-color: black;
+    color: white;
+    padding: 40px;
+    display: flex;
+
+
+}
+/* .footer-addres{
+    margin-right: 20%;
+} */

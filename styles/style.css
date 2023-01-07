@@ -33,3 +33,26 @@ border-radius: 5px;
 #btn-info:hover{
     background-color: blanchedalmond;
 }
+
+/* This is first section */
+
+.first-section{
+    height: 600px;
+    background-color: rgb(207, 222, 223);
+    border: 3px solid brown;
+    background-image: url('../images/person.png');
+    background-repeat: no-repeat;
+    background-size: 25%;
+   background-position:25%;
+  
+}
+.first-section-info{
+    height: 300px;
+    width: 400px;
+    margin-left: 50%;
+    margin-top: 15%;
+}
+#first-title{
+    font-weight: 900;
+    font-size: xx-large;
+}

@@ -1,3 +1,35 @@
-h1{
-    color: redcd c;
+/* header section */
+header{
+    background-color: rgb(233, 45, 12);
+    background-image: url('../images/banner/banner2.png');
+    background-size:cover;
+    height: 600px;
+    background-repeat: no-repeat;
+    border: 3px solid  blue;
+}
+
+.header-info{
+/* border: 2px solid rgb(233, 45, 12); */
+text-align:right;
+height: 300px;
+width: 300px;
+margin-left: 70%;
+margin-top: 15%;
+}
+#header-title{
+    font-weight: 900;
+    font-size: xx-large;
+}
+ 
+
+
+#btn-info{
+
+background-color: chocolate;
+border: none;
+padding: 10px;
+border-radius: 5px;
+}
+#btn-info:hover{
+    background-color: blanchedalmond;
 }

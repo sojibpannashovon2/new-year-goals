@@ -5,7 +5,7 @@ header{
     background-size:cover;
     height: 600px;
     background-repeat: no-repeat;
-    border: 3px solid  blue;
+    border: 3px solid   rgb(207, 222, 223);
 }
 
 .header-info{
@@ -13,7 +13,7 @@ header{
 text-align:right;
 height: 300px;
 width: 300px;
-margin-left: 70%;
+margin-left: 60%;
 margin-top: 15%;
 }
 #header-title{
@@ -37,20 +37,20 @@ border-radius: 5px;
 /* This is first section */
 
 .first-section{
-    height: 600px;
+    height: 400px;
     background-color: rgb(207, 222, 223);
-    border: 3px solid brown;
+    border: 3px solid   rgb(207, 222, 223);
     background-image: url('../images/person.png');
     background-repeat: no-repeat;
     background-size: 25%;
-   background-position:25%;
+    background-position:25%;
   
 }
 .first-section-info{
     height: 300px;
     width: 400px;
     margin-left: 50%;
-    margin-top: 12%;
+    /* margin-top: 400px; */
 }
 #first-title{
     font-weight: 900;
@@ -66,7 +66,7 @@ border-radius: 5px;
     width: 80%;
     margin: auto;
     /* background-color: rgba(37, 244, 144, 0.947); */
-    border: 3px solid rgb(42, 46, 165);
+    /* border: 3px solid rgb(42, 46, 165); */
 }
 /* .image{
     background-image: url('../images/icons/web.png');
@@ -98,13 +98,17 @@ border-radius: 5px;
 
 /* <!-- This is second section end--> */
 
+
+/* <!-- This is third section start--> */
+
 .third-section{
     height: 300px;
     width: 80%;
     margin: auto;
-    border: 2px solid gold; 
+    border: 3px solid   rgb(207, 222, 223);
     border-radius: 10px;
-    margin-top: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
     background: url('../images/gradient3.png') right bottom no-repeat, url('../images/watch.png') left top repeat;
     background-color: transparent;
     color: white;
@@ -124,6 +128,8 @@ border-radius: 5px;
     background-color: rgb(55, 126, 241);
     color: white;
 }
+
+
 /* footer section */
 
 #btn3-info{
@@ -143,9 +149,25 @@ border-radius: 5px;
     color: white;
     padding: 40px;
     display: flex;
+  
 
 
 }
-/* .footer-addres{
+.footer-addres{
+    margin-top: 5%;
     margin-right: 20%;
-} */
+    padding-left: 15%;
+}
+.footer-email{
+    margin-top: 5%; 
+}
+.logo{
+    margin-right: 10px;
+}
+
+
+/* Fullbody */
+
+body{
+    background-color: rgb(234, 237, 238);
+}
